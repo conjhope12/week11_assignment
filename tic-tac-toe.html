@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TTT</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="styles.css"></link>
 </head>
 <body>
     
-    <h1 class="text-center mb-5 pb-5">T - T - T</h1>
+    <h1 class="text-center mb-2">T - T - T</h1>
 
-    <div class="container" id="gameOver">
+    <!-- <div class="container" id="gameOver">
         <div class="alert alert-danger alert-dismissible fade show text-center mx-auto" role="alert" id="xWin">
             <strong>X Wins the Game!</strong> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -23,77 +24,106 @@
             <strong>It's a Draw :/</strong> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-    </div>
+    </div> -->
+    <!-- <div id="winnerBox" class="text-center mb-2">Winning message</div> -->
 
-    <div class="container text-center mb-2" id="tttTable">
-        <div class="row row-cols-3 me-xl-3 ">
-            <div class="col" id="1"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
+    <!-- <div class="mb-2" id="board">
+        <div class="row row-cols-3">
+            <div class="cell" data-index="1"
+            style="border:2px solid black"> -->
+            
+                <!-- <div class="gap-1 mx-auto text-center">
                     <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
                     <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div> 
-            </div>
-            <div class="col" id="2"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
+                </div>  -->
+            <!-- </div>
+            <div class="cell" data-index="2"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
                     <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
                     <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="3"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
+                </div> -->
+            <!-- </div>
+            <div class="cell" data-index="3"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
                     <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
                     <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="4"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="5"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="6"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="7"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="8"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
-            <div class="col" id="9"
-            style="border:2px solid black">
-                <div class="gap-1 mx-auto text-center">
-                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
-                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
-                </div>
-            </div>
+                </div> -->
+            <!-- </div>
         </div>
+        <div class="row row-cols-3">
+            <div class="cell" data-index="4"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+            <div class="cell" data-index="5"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+            <div class="cell" data-index="6"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+        </div>
+        <div class="row row-cols-3">
+            <div class="cell" data-index="7"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+            <div class="cell" data-index="8"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+            <div class="cell" data-index="9"
+            style="border:2px solid black"> -->
+                <!-- <div class="gap-1 mx-auto text-center">
+                    <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
+                    <button type="button" class="btn btn-outline-info " data-bs-toggle="button" id="oBtn">O</button>
+                </div> -->
+            <!-- </div>
+            <div id="strike" class="strike"></div>
+        </div>
+    </div> -->
+
+    <div id="board">
+        <div data-index="1" class="tile right-border bottom-border"></div>
+        <div data-index="2" class="tile right-border bottom-border"></div>
+        <div data-index="3" class="tile bottom-border"></div>
+        <div data-index="4" class="tile right-border bottom-border"></div>
+        <div data-index="5" class="tile right-border bottom-border"></div>
+        <div data-index="6" class="tile bottom-border"></div>
+        <div data-index="7" class="tile right-border"></div>
+        <div data-index="8" class="tile right-border"></div>
+        <div data-index="9" class="tile"></div>
+        <div id="strike" class="strike"></div>
     </div>
 
-    <h5 class="text-center mb-2">(Tip: When your letter displays color, that means it's your turn.)</h5>
+    <h5 class="text-center mb-2">Place your letter in the box my clicking on it!</h5>
+    <h6 class="text-center mb-2">
+        If you are to hover over the tiles and you see a X... it is X's turn. <br>
+        If you are to hover over the tiles and you see an O... it is O's turn.
+    </h6>
+
+    <div id="game-over-area" class="text-center hidden">
+        <h2 id="game-over-text">Winner is X</h2>
+        <button id="play-again">Play again</button>
+    </div>
     <!-- 
     <div class="gap-1 mx-auto text-center mb-5">
         <button type="button" class="btn btn-outline-danger" data-bs-toggle="button" id="xBtn">X</button>
@@ -107,7 +137,7 @@
     Disabled
     <a class="btn disabled" aria-disabled="true" role="button" data-bs-toggle="button">Disabled toggle link</a> 
     -->
-    <div class="container" id="turnOver">
+    <!-- <div class="container" id="turnOver">
         <div class="alert alert-danger alert-dismissible fade show text-center mx-auto" role="alert" id="xTurn">
             <strong>X's Turn!</strong> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -116,15 +146,16 @@
             <strong>O's Turn!</strong> 
             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
         </div>
-    </div>
+    </div> -->
+    <!-- <div id="turnBox" class="text-center mb-2">Turn message</div> -->
 
 
-    <div class="d-grid gap-2 col-6 mx-auto">
-        <button class="btn btn-primary" type="button" id="btn_start">Start Game</button>
-        <button class="btn btn-primary" type="button" id="btn_turn">End Turn</button>
-        <button class="btn btn-primary" type="button" id="btn_game">End Game</button>
+    <!--<div class="d-grid gap-2 col-6 mx-auto">
+         <button class="btn btn-primary" type="button" id="btn_start">Start Game</button>
+        <button class="btn btn-primary" type="button" id="btn_turn">End Turn</button> 
+        <button class="btn btn-primary mb-2" type="button" id="btn_game">End Game</button>
         <button class="btn btn-primary" type="button" id="btn_clear">Clear Board</button>
-    </div>
+    </div>-->
     
     <!-- 
         <button type="button" class="btn btn-outline-primary btn-lg">O</button>
@@ -132,10 +163,9 @@
     <input class="btn btn-outline-info" type="end-turn" value="End Turn"> 
 -->
     
-    <script src="styles.css"></script>
-    <script src="tic-tac-toe.js"></script>
-    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <!-- <script src="node_modules/jquery/dist/jquery.js"></script> -->
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="tic-tac-toe.js"></script>
     
 </body>
 </html>
